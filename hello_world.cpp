@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+using namespase std;
+
 int main()
 {
 	std::string name;
