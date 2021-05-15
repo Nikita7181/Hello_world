@@ -1,8 +1,10 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main()
 {
-	cout << "Hello world";
+	std::string name;
+	std::gitline(std::cin, name);
+	cout << "Hello world" << name << std::endl;;
 	return 0;
 }
